@@ -23,22 +23,22 @@ The program should help organizers keep track of participants and activity regis
 
 ## Required Features
 
-### 1. Create a Participant Class
+### 1. Create a `Participant` Class
 Required fields:
-- name
-- grade
-- studentID
-- activities
-- score (for competition results)
+- `name`
+- `grade`
+- `studentID`
+- `activities`
+- `score` (for competition results)
 Required methods:
 - Constructor
 - Getters/setters
-- toString()
+- `toString()`
 Example:
 Participant p = new Participant("Ava", 11, 2045, {“Robotics”, “Basketball”, “Debate”}, 95);
 
 ---
-### 2. Store Participants in an ArrayList
+### 2. Store Participants in an `ArrayList`
 Use:
 ArrayList<Participant>
 
@@ -90,7 +90,7 @@ Generate at least one report such as:
 ## Suggested Timeline
 ### Day 1
 #### Part 1
-- Create Participant class
+- Create `Participant` class
 - Build constructor/getters/setters
 - Create menu structure
 #### Part 2
@@ -110,7 +110,7 @@ Generate at least one report such as:
 ---
 ## Deliverables
 Students submit every class:
-- .java files
+- `.java` files
 - Full screenshots of code & program running
 - Submit the above in a zipped folder with the date.
 
