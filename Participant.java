@@ -18,7 +18,26 @@ public class Participant {
     private String name;
     private int grade;
     private int studentID;
-    private string activities;
+    private String activities;
     private int score;
-    
+
+    public String getName() {
+        return name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getStudentID() {
+        return studentID;
+    }
+
+    public String getActivities() {
+        return activities;
+    }
+
+    public int getScore() {
+        return score;
+    }
 }
