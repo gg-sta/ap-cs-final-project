@@ -1,23 +1,6 @@
 import java.util.ArrayList;
 
 public class Participant {
-    /*
-    required fields:
-
-    - constructor
-
-    - getters/setters
-        - name
-        - grade
-        - studentID
-        - activities
-        - score
-
-
-    - toString()
-        - Example: Participant p = new Participant("Ava", 11, 2045, {“Robotics”, “Basketball”, “Debate”}, 95);
-    */
-
     private String name;
     private int grade;
     private int studentID;
@@ -78,5 +61,11 @@ public class Participant {
     public void setScore(int s)
     {
         score = s;
+    }
+
+    //toString
+    public String toString()
+    {
+        return "Name: " + name + "\nGrade: " + grade + "\nStudent ID: " + studentID + "\nActivities: " + activities + "\nScore: " + score;
     }
 }
