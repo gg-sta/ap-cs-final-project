@@ -1,14 +1,15 @@
 import java.util.ArrayList;
+//use library for ArrayList<String> 
 
 public class Participant {
     private String name;
     private int grade;
     private int studentID;
-    private String activities;
+    private ArrayList<String> activities;
     private int score;
 
     //constructor
-    public Participant(String n, int g, int id, String a, int s) {
+    public Participant(String n, int g, int id, ArrayList<String> a, int s) {
         name = n;
         grade = g;
         studentID = id;
@@ -29,7 +30,7 @@ public class Participant {
         return studentID;
     }
 
-    public String getActivities() {
+    public ArrayList<String> getActivities() {
         return activities;
     }
 
@@ -53,7 +54,7 @@ public class Participant {
         studentID = id;
     }
 
-    public void setActivities(String a)
+    public void setActivities(ArrayList<String> a)
     {
         activities = a;
     }
