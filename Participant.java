@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Participant {
     /*
     required fields:
@@ -21,6 +23,16 @@ public class Participant {
     private String activities;
     private int score;
 
+    //constructor
+    public Participant(String n, int g, int id, String a, int s) {
+        name = n;
+        grade = g;
+        studentID = id;
+        activities = a;
+        score = s;
+    }
+    
+    //getters
     public String getName() {
         return name;
     }
