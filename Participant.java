@@ -3,7 +3,9 @@ import java.util.ArrayList;
 public class Participant {
     /*
     required fields:
-    
+
+    - constructor
+
     - getters/setters
         - name
         - grade
@@ -11,7 +13,6 @@ public class Participant {
         - activities
         - score
 
-        - constructor
 
     - toString()
         - Example: Participant p = new Participant("Ava", 11, 2045, {“Robotics”, “Basketball”, “Debate”}, 95);
@@ -51,5 +52,31 @@ public class Participant {
 
     public int getScore() {
         return score;
+    }
+
+    // Setters
+    public void setName(String n)
+    {
+        name = n;
+    }
+
+    public void setGrade(int g)
+    {
+        grade = g;
+    }
+
+    public void setStudentID(int id)
+    {
+        studentID = id;
+    }
+
+    public void setActivities(String a)
+    {
+        activities = a;
+    }
+
+    public void setScore(int s)
+    {
+        score = s;
     }
 }
